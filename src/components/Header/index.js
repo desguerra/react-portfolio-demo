@@ -4,7 +4,7 @@ import Navigation from '../Navigation';
 function Header() {
   return (
     <header>
-      <h2>nikki esguerra</h2>
+      <h1>nikki esguerra</h1>
       <Navigation />
     </header>
   );

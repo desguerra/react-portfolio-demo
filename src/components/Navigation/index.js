@@ -3,18 +3,26 @@ import React from 'react';
 function Navigation() {
   return (
     <nav>
-      <ul>
-        <li>
-          About Me
+      <ul className='nav justify-content-center'>
+        <li className='nav-item mx-2'>
+          <a href='#' className='nav-link navlink'>
+              about me
+          </a>
         </li>
-        <li>
-          Portfolio
+        <li className='nav-item mx-2'>
+          <a href='#' className='nav-link navlink'>
+              portfolio
+          </a>
         </li>
-        <li>
-          Contact
+        <li className='nav-item mx-2'>
+          <a href='#' className='nav-link navlink'>
+              contact
+          </a>
         </li>
-        <li>
-          Resume
+        <li className='nav-item mx-2'>
+          <a href='#' className='nav-link navlink'>
+              resume
+          </a>
         </li>
       </ul>
     </nav>
