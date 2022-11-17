@@ -91,6 +91,14 @@ nav ul li .navlink:hover {
   -webkit-text-decoration: wavy underline;
   font-weight: bold;
 }
+
+section {
+  background-color: var(--primary);
+  font-family: 'Quicksand', sans-serif;
+  color: var(--light-dark);
+  line-height: 1.5;
+  letter-spacing: 2px;
+}
   
 p {
     font-size: 1.2rem;

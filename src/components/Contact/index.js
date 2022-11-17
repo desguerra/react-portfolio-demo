@@ -3,8 +3,8 @@ import React from 'react';
 function Contact() {
   return (
     <section className='container-fluid'>
-      <div className='m-5'>
-        <h1>contact me</h1>
+      <div className='mx-5 py-2'>
+        <h2>contact me</h2>
         <form id='contact-form'>
         <div>
           <label htmlFor='name' className='form-label'>Name:</label>
