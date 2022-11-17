@@ -1,12 +1,11 @@
 import React from 'react';
-
-// FIXME: do we add the <Navigation /> component here?
-// import Navigation from './components/Navigation';
+import Navigation from '../Navigation';
 
 function Header() {
   return (
     <header>
       <h2>nikki esguerra</h2>
+      <Navigation />
     </header>
   );
 }

@@ -3,7 +3,9 @@ import React from 'react';
 function Footer() {
   return (
     <footer>
-      <h2>footer</h2>
+      <a href='/' target='_blank'>github</a>
+      <a href='/' target='_blank'>linkedin</a>
+      <a href='/' target='_blank'>stack overflow</a>
     </footer>
   );
 }
