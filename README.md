@@ -11,7 +11,7 @@ Through this project, I learned how to:
 * add a contact form
 * deploy a React project to GitHub pages
 
-[Check out the deployed application here!]()
+[Check out the deployed application here!](https://desguerra.github.io/react-portfolio-demo/)
 
 ## Table of Contents
 
