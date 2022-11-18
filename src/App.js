@@ -1,15 +1,15 @@
 import Header from './components/Header';
-import Project from './components/Project';
 import Footer from './components/Footer';
 import Contact from './components/Contact';
 import Resume from './components/Resume';
+import Portfolio from './components/Portfolio';
 
 function App() {
   return (
     <div>
       <Header />
       <main>
-        <Project />
+        <Portfolio />
         <Contact />
         <Resume />
       </main>

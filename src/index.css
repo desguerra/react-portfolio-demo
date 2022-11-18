@@ -49,17 +49,17 @@ h6 {
   line-height: 1.25;
 }
 
-a,
-a:active,
-a:focus {
+main a,
+main a:active,
+main a:focus {
     color: var(--tertiary);
     text-decoration: wavy underline;
     -webkit-text-decoration: wavy underline;
     font-weight: bold;
 }
 
-a:hover {
-    color: var(--primary);
+main a:hover {
+    color: var(--light-dark);
     text-decoration: none;
     font-weight: bold;
 }
@@ -123,4 +123,35 @@ footer a:hover {
 
 footer a {
   padding: 0 10px;
+}
+
+.btn-sub, .btn-sub:active, .btn-sub:focus {
+  font-size: 1.3rem;
+  text-decoration: none;
+  padding: 6px 10px;
+  border-radius: var(--border-radius);
+  color: var(--primary);
+  border: none;
+  outline: none;
+  background-color: var(--light-dark);
+  box-shadow: 4px 4px var(--dark);
+  transform: translate(-1px, -1px);
+  font-weight: normal;
+  margin: 0.5em 0;
+}
+
+.btn-sub:hover {
+  color: var(--primary);
+  background-color: var(--tertiary);
+  transform: translate(0, 0);
+  box-shadow: 3px 3px var(--dark);
+  font-weight: normal;
+}
+
+img {
+  opacity: 0.65;
+}
+
+img:hover {
+  opacity: 1.0;
 }
