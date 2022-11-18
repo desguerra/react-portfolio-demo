@@ -6,7 +6,7 @@ function About() {
       <div className='mx-5 py-2'>
         <h2>about me</h2>
 
-        <div className='p-4'>
+        <div className='p-5'>
           <div className='py-2'>
             <svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" fill="currentColor" className="bi bi-person-circle" viewBox="0 0 16 16">
               <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
@@ -21,6 +21,13 @@ function About() {
             <p>
               I am a <strong>Full-stack Web Developer</strong> with a <strong>Bachelor of Science</strong> degree in <strong>Electrical Engineering</strong>
               , and am currently pursuing a certificate in <strong>Full-Stack Web Development</strong> at the <strong>University of California, Davis</strong>.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
+              et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi 
+              ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse 
+              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa 
+              qui officia deserunt mollit anim id est laborum.
             </p>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 

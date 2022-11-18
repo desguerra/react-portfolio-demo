@@ -1,28 +1,32 @@
 import React from 'react';
 
-function Navigation() {
+function Navigation(props) {
+  const {
+    setCurrentPage
+  } = props;
+
   return (
     <nav>
       <ul className='nav justify-content-center'>
         <li className='nav-item mx-2'>
-          <a href='/' className='nav-link navlink'>
-              about me
-          </a>
+          <span className='nav-link navlink' onClick={() => setCurrentPage('about')}>
+            about me
+          </span>
         </li>
         <li className='nav-item mx-2'>
-          <a href='/' className='nav-link navlink'>
-              portfolio
-          </a>
+          <span className='nav-link navlink' onClick={() => setCurrentPage('portfolio')}>
+            portfolio
+          </span>
         </li>
         <li className='nav-item mx-2'>
-          <a href='/' className='nav-link navlink'>
-              contact
-          </a>
+          <span className='nav-link navlink' onClick={() => setCurrentPage('contact')}>
+            contact
+          </span>
         </li>
         <li className='nav-item mx-2'>
-          <a href='/' className='nav-link navlink'>
-              resume
-          </a>
+          <span className='nav-link navlink' onClick={() => setCurrentPage('resume')}>
+            resume
+          </span>
         </li>
       </ul>
     </nav>

@@ -15,6 +15,10 @@
   transition: .15s ease-in-out;
 }
 
+html {
+  background-color: var(--light-dark);
+}
+
 body {
   background-color: var(--primary);
   margin: 0;
@@ -90,6 +94,7 @@ nav ul li .navlink:hover {
   text-decoration: wavy underline;
   -webkit-text-decoration: wavy underline;
   font-weight: bold;
+  cursor: pointer;
 }
 
 section {
@@ -108,7 +113,7 @@ footer {
   text-align: center;
   background-color: var(--light-dark);
   color: var(--primary);
-  padding: 40px 0;
+  padding: 50px 0;
 }
 
 footer a,

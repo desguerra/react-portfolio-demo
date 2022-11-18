@@ -1,3 +1,4 @@
+import React, { useState } from 'react';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Contact from './components/Contact';
@@ -6,14 +7,29 @@ import Portfolio from './components/Portfolio';
 import About from './components/About';
 
 function App() {
+
+  const [currentPage, setCurrentPage] = useState('about');
+
   return (
     <div>
-      <Header />
+
+      <Header
+        setCurrentPage={setCurrentPage}
+      ></Header>
+
       <main>
-        <About />
-        <Portfolio />
-        <Contact />
-        <Resume />
+        {currentPage === 'about'
+          && <About />}
+
+        {currentPage === 'portfolio'
+          && <Portfolio />}
+
+        {currentPage === 'contact'
+          && <Contact />}
+
+        {currentPage === 'resume'
+          && <Resume />}
+
       </main>
       <Footer />
     </div>
