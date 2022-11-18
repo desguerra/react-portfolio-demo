@@ -3,6 +3,7 @@ import Navigation from '../Navigation';
 
 function Header(props) {
   const {
+    currentPage,
     setCurrentPage
   } = props;
 
@@ -10,6 +11,7 @@ function Header(props) {
     <header>
       <h1>nikki esguerra</h1>
       <Navigation
+        currentPage={currentPage}
         setCurrentPage={setCurrentPage}
       ></Navigation>
     </header>

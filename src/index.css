@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oxygen:wght@300;400;700&family=Quicksand:wght@300;400;500;600;700&display=swap');
 
 :root {
-  --primary: #c7f9cc;
-  --secondary: #80ed99;
-  --tertiary: #57cc99;
-  --light-dark: #38a3a5;
-  --dark: #22577a;
+  --primary: #f2e9e4;
+  --secondary: #c9ada7;
+  --tertiary: #9a8c98;
+  --light-dark: #4a4e69;
+  --dark: #22223b;
   --border-radius: .3rem;
 }
 
@@ -91,10 +91,16 @@ nav ul li .navlink:focus {
 
 nav ul li .navlink:hover {
   color: var(--primary);
-  text-decoration: wavy underline;
-  -webkit-text-decoration: wavy underline;
+  text-decoration: wavy underline overline;
+  -webkit-text-decoration: wavy underline overline;
   font-weight: bold;
   cursor: pointer;
+}
+
+nav ul .navActive {
+  text-decoration: wavy underline overline;
+  -webkit-text-decoration: wavy underline overline;
+  color: var(--tertiary);
 }
 
 section {
@@ -159,4 +165,14 @@ img {
 
 img:hover {
   opacity: 1.0;
+}
+
+/* SELECTION */
+::-moz-selection {
+  color: white;
+  background: var(--secondary);
+}
+::selection {
+  color: white;
+  background: var(--secondary);
 }

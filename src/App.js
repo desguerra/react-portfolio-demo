@@ -14,6 +14,7 @@ function App() {
     <div>
 
       <Header
+        currentPage={currentPage}
         setCurrentPage={setCurrentPage}
       ></Header>
 
