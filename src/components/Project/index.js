@@ -10,33 +10,33 @@ function Project() {
       img: '0'
     },
     {
+      title: 'Music Market',
+      deployedURL: 'https://g02-music-market.herokuapp.com/',
+      githubURL: 'https://github.com/jacobmcanepa/music-market',
+      img: '1'
+    },
+    {
       title: 'the tech blog',
       deployedURL: 'https://afternoon-chamber-17636.herokuapp.com/',
       githubURL: 'https://github.com/desguerra/tech-blog',
-      img: '1'
+      img: '2'
     },
     {
       title: 'star sign lovers',
       deployedURL: 'https://stark-hollows-94979.herokuapp.com/',
       githubURL: 'https://github.com/desguerra/star-sign-lovers',
-      img: '2'
+      img: '3'
     },
     {
       title: 'weeb army',
       deployedURL: 'https://desguerra.github.io/weeb-army/',
       githubURL: 'https://github.com/desguerra/weeb-army',
-      img: '3'
+      img: '4'
     },
     {
       title: 'weather dashboard',
       deployedURL: 'https://desguerra.github.io/weather-dashboard/',
       githubURL: 'https://github.com/desguerra/weather-dashboard',
-      img: '4'
-    },
-    {
-      title: 'Run Buddy',
-      deployedURL: 'https://desguerra.github.io/run-buddy/',
-      githubURL: 'https://github.com/desguerra/run-buddy',
       img: '5'
     }
   ]);
